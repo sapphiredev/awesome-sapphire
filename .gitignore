@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+.pnp/
+package-lock.json
+
+# Yarn files
+.yarn/install-state.gz
+.yarn/build-state.yml
+
+# misc
+.DS_Store
+Thumbs.db
+
+# IDE Settings
+.idea/
+.vs/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
