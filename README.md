@@ -31,7 +31,9 @@ choose either the regular badge or the flat one.
 
 ## Plugins
 
-- [@devtomio/plugin-botlist](https://github.com/devtomio/sapphire-plugin-botlist#readme): This plugin enables the integration of many bot lists such as [`top.gg`](https://top.gg), [`discordlabs`](https://discordlabs.org), and others.
+- [@devtomio/plugin-botlist](https://github.com/devtomio/sapphire-plugin-botlist#readme): This plugin enables the
+  integration of many bot lists such as [`top.gg`](https://top.gg), [`discordlabs`](https://discordlabs.org), and
+  others.
 
 ## Utilities
 
