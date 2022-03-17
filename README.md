@@ -37,7 +37,6 @@ choose either the regular badge or the flat one.
 - [@kaname-png/plugin-env](https://github.com/kaname-png/neko-plugins/tree/main/packages/env): Manage environment
   variables for use with any [`@sapphire/framework`](https://github.com/sapphiredev/framework) bot project.
 - [@kaname-png/plugin-statcord](https://github.com/kaname-png/neko-plugins/tree/main/packages/statcord): Plugin for @sapphire/framework to send and manage bot stats with statcord.
-- [@kaname-png/plugin-env](https://github.com/kaname-png/neko-plugins/tree/main/packages/env): Manage environment variables with @sapphire/framework for the bot client.
 
 ## Utilities
 
