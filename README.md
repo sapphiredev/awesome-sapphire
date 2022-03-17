@@ -24,10 +24,13 @@ choose either the regular badge or the flat one.
 
 ## Contents
 
-- [Plugins](#plugins)
-- [Utilities](#utilities)
-- [Reading](#reading)
-- [Miscellaneous](#miscellaneous)
+- [Awesome Sapphire ![Awesome](https://awesome.re)](#awesome-sapphire-)
+  - [Contents](#contents)
+  - [Plugins](#plugins)
+  - [Utilities](#utilities)
+  - [Reading](#reading)
+  - [Miscellaneous](#miscellaneous)
+  - [Contribute](#contribute)
 
 ## Plugins
 
@@ -37,6 +40,8 @@ choose either the regular badge or the flat one.
 - [@kaname-png/plugin-env](https://github.com/kaname-png/neko-plugins/tree/main/packages/env): Manage environment
   variables for use with any [`@sapphire/framework`](https://github.com/sapphiredev/framework) bot project.
 - [@kaname-png/plugin-statcord](https://github.com/kaname-png/neko-plugins/tree/main/packages/statcord): Plugin for @sapphire/framework to send and manage bot stats with statcord.
+- [@kaname-png/plugin-statcord](https://github.com/kaname-png/neko-plugins/tree/main/packages/statcord): Plugin for
+  @sapphire/framework to send and manage bot stats with statcord.
 
 ## Utilities
 
