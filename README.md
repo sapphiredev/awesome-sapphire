@@ -24,16 +24,21 @@ choose either the regular badge or the flat one.
 
 ## Contents
 
-- [Plugins](#plugins)
-- [Utilities](#utilities)
-- [Reading](#reading)
-- [Miscellaneous](#miscellaneous)
+- [Awesome Sapphire ![Awesome](https://awesome.re)](#awesome-sapphire-)
+  - [Contents](#contents)
+  - [Plugins](#plugins)
+  - [Utilities](#utilities)
+  - [Reading](#reading)
+  - [Miscellaneous](#miscellaneous)
+  - [Contribute](#contribute)
 
 ## Plugins
 
 - [@devtomio/plugin-botlist](https://github.com/devtomio/sapphire-plugin-botlist#readme): This plugin enables the
   integration of many bot lists such as [`top.gg`](https://top.gg), [`discordlabs`](https://discordlabs.org), and
   others.
+- [@kaname-png/plugin-env](https://github.com/kaname-png/neko-plugins/tree/main/packages/env): Manage environment
+    variables with @sapphire/framework for the bot client.
 
 ## Utilities
 
