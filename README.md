@@ -24,10 +24,10 @@ choose either the regular badge or the flat one.
 
 ## Contents
 
-  - [Plugins](#plugins)
-  - [Utilities](#utilities)
-  - [Reading](#reading)
-  - [Miscellaneous](#miscellaneous)
+- [Plugins](#plugins)
+- [Utilities](#utilities)
+- [Reading](#reading)
+- [Miscellaneous](#miscellaneous)
 
 ## Plugins
 
