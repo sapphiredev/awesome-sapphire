@@ -24,7 +24,6 @@ choose either the regular badge or the flat one.
 
 ## Contents
 
-  - [Contents](#contents)
   - [Plugins](#plugins)
   - [Utilities](#utilities)
   - [Reading](#reading)
