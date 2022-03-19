@@ -24,13 +24,10 @@ choose either the regular badge or the flat one.
 
 ## Contents
 
-- [Awesome Sapphire ![Awesome](https://awesome.re)](#awesome-sapphire-)
-  - [Contents](#contents)
   - [Plugins](#plugins)
   - [Utilities](#utilities)
   - [Reading](#reading)
   - [Miscellaneous](#miscellaneous)
-  - [Contribute](#contribute)
 
 ## Plugins
 
