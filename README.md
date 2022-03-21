@@ -40,6 +40,9 @@ choose either the regular badge or the flat one.
 - [@kaname-png/plugin-statcord](https://github.com/kaname-png/neko-plugins/tree/main/packages/statcord): Plugin for
   @sapphire/framework to send and manage bot stats with statcord.
 - [@kaname-png/plugin-statcord](https://github.com/kaname-png/neko-plugins/tree/main/packages/statcord): Plugin for [`@sapphire/framework`](https://github.com/sapphiredev/framework) to send and manage bot statistics on [statcord](https://statcord.com).
+- [@kaname-png/plugin-statcord](https://github.com/kaname-png/neko-plugins/tree/main/packages/statcord): Plugin for
+  [`@sapphire/framework`](https://github.com/sapphiredev/framework) to send and manage bot statistics on
+  [statcord](https://statcord.com).
 
 ## Utilities
 
