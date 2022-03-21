@@ -34,7 +34,8 @@ choose either the regular badge or the flat one.
 - [@devtomio/plugin-botlist](https://github.com/devtomio/sapphire-plugin-botlist#readme): This plugin enables the
   integration of many bot lists such as [`top.gg`](https://top.gg), [`discordlabs`](https://discordlabs.org), and
   others.
-- [@kaname-png/plugin-env](https://github.com/kaname-png/neko-plugins/tree/main/packages/env): Manage environment variables for use with any [`@sapphire/framework`](https://github.com/sapphiredev/framework) bot project.
+- [@kaname-png/plugin-env](https://github.com/kaname-png/neko-plugins/tree/main/packages/env): Manage environment
+  variables for use with any [`@sapphire/framework`](https://github.com/sapphiredev/framework) bot project.
 
 ## Utilities
 
