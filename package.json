@@ -20,5 +20,9 @@
 		"prettier": "^2.6.2",
 		"pretty-quick": "^3.1.3"
 	},
+	"resolutions": {
+		"ansi-regex": "^5.0.1",
+		"minimist": "^1.2.6"
+	},
 	"packageManager": "yarn@3.2.0"
 }
