@@ -39,9 +39,9 @@ choose either the regular badge or the flat one.
 - [@kaname-png/plugin-statcord](https://github.com/kaname-png/neko-plugins/tree/main/packages/statcord): Plugin for
   [`@sapphire/framework`](https://github.com/sapphiredev/framework) to send and manage bot statistics on
   [statcord](https://statcord.com).
-- [@kaname-png/plugin-api-jwt](https://github.com/kaname-png/neko-plugins/tree/main/packages/api-jwt): Plugin for
-  [`@sapphire/framework`](https://github.com/sapphiredev/framework) to overwrite the authentication strategy of
-  [@sapphire/plugin-api](https://www.npmjs.com/package/@sapphire/plugin-api) plugin to use [JSON Web Tokens](https://jwt.io) instead of [HttpOnly Secure Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies).
+- [@sapphire/plugin-api](https://www.npmjs.com/package/@sapphire/plugin-api) plugin to use
+  [JSON Web Tokens](https://jwt.io) instead of
+  [HttpOnly Secure Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies).
 
 ## Utilities
 
