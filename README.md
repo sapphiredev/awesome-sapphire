@@ -45,6 +45,8 @@ choose either the regular badge or the flat one.
 
 ## Utilities
 
+- [sapphire-i18n-ally](https://marketplace.visualstudio.com/items?itemName=mzato0001.sapphire-i18n-ally) This is a vscode extension supports [`@sapphire/plugin-i18next`](https://github.com/sapphiredev/plugins/tree/main/packages/i18next) - [Source: `Mzato0001/i18n-ally`](https://github.com/Mzato0001/i18n-ally/tree/publish)
+
 ## Reading
 
 ## Miscellaneous
