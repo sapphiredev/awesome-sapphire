@@ -10,7 +10,7 @@
 		"format": "prettier --write \"*.md\"",
 		"format:check": "prettier --check \"*.md\"",
 		"update": "yarn upgrade-interactive",
-		"prepare": "husky install .github/husky"
+		"postinstall": "husky install .github/husky"
 	},
 	"devDependencies": {
 		"@sapphire/prettier-config": "^1.4.3",
