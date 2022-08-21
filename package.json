@@ -13,7 +13,7 @@
 		"postinstall": "husky install .github/husky"
 	},
 	"devDependencies": {
-		"@sapphire/prettier-config": "^1.4.3",
+		"@sapphire/prettier-config": "^1.4.4",
 		"husky": "^8.0.1",
 		"markdownlint": "^0.26.2",
 		"markdownlint-cli2": "^0.5.1",
