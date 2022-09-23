@@ -46,8 +46,7 @@ choose either the regular badge or the flat one.
   [`@sapphire/framework`](https://github.com/sapphiredev/framework) that allows modal submits to be handled in the
   corresponding command.
 - [@kaname-png/plugin-subcommands-advanced](https://github.com/kaname-png/neko-plugins/tree/subcommands-advanced/packages/subcommands-advanced#readme): Plugin for
-  [`@sapphire/framework`](https://github.com/sapphiredev/framework) to create subcommands using decorators and class extensions.
-  command classes and decorators.
+  [`@sapphire/framework`](https://github.com/sapphiredev/framework) to create and register subcommands using decorators and/or advanced class structures.
 
 
 ## Utilities
