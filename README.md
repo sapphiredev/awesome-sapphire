@@ -45,6 +45,9 @@ choose either the regular badge or the flat one.
 - [sapphire-plugin-modal-commands](https://github.com/MajesticString/sapphire-plugin-modal-commands#readme): Plugin for
   [`@sapphire/framework`](https://github.com/sapphiredev/framework) that allows modal submits to be handled in the
   corresponding command.
+- [@kaname-png/plugin-subcommands-advanced](https://github.com/kaname-png/neko-plugins/tree/main/packages/subcommands-advanced#readme):
+  Plugin for [`@sapphire/framework`](https://github.com/sapphiredev/framework) to create and register subcommands using
+  decorators and/or advanced class structures.
 
 ## Utilities
 
