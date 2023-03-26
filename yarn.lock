@@ -91,9 +91,9 @@ __metadata:
   dependencies:
     "@sapphire/prettier-config": ^1.4.5
     husky: ^8.0.3
-    markdownlint: ^0.27.0
+    markdownlint: ^0.28.0
     markdownlint-cli2: ^0.6.0
-    prettier: ^2.8.4
+    prettier: ^2.8.7
     pretty-quick: ^3.1.3
   languageName: unknown
   linkType: soft
@@ -409,12 +409,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint@npm:0.27.0, markdownlint@npm:^0.27.0":
+"markdownlint-micromark@npm:0.1.2":
+  version: 0.1.2
+  resolution: "markdownlint-micromark@npm:0.1.2"
+  checksum: f1ae330db8e9cad942de8f8e422287c38e94e9eb733031e73929023b03838f945776756dd7d6a4b3c9a5fa4ec1c1db6c0e0edd8b59ddc57defbdab2f01d31ce9
+  languageName: node
+  linkType: hard
+
+"markdownlint@npm:0.27.0":
   version: 0.27.0
   resolution: "markdownlint@npm:0.27.0"
   dependencies:
     markdown-it: 13.0.1
   checksum: aecc5849e611f66f4c666c9fe47f798fc7cb044ee0bf7884d666152961f1bf585f0e16cafe575386d40d5d19b82e6071aeecee14f1a7006495fe46fcf93c7aa7
+  languageName: node
+  linkType: hard
+
+"markdownlint@npm:^0.28.0":
+  version: 0.28.0
+  resolution: "markdownlint@npm:0.28.0"
+  dependencies:
+    markdown-it: 13.0.1
+    markdownlint-micromark: 0.1.2
+  checksum: b95758245fb5038339c49ce753b81034c07b5f349ce4f511a56afbffeb58e08ea725bc5f6e27b44ffd1415eef226e1982614739738fd6a68749e2902ef307e07
   languageName: node
   linkType: hard
 
@@ -565,12 +582,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.8.2, prettier@npm:^2.8.4":
+"prettier@npm:^2.8.2":
   version: 2.8.4
   resolution: "prettier@npm:2.8.4"
   bin:
     prettier: bin-prettier.js
   checksum: c173064bf3df57b6d93d19aa98753b9b9dd7657212e33b41ada8e2e9f9884066bb9ca0b4005b89b3ab137efffdf8fbe0b462785aba20364798ff4303aadda57e
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.8.7":
+  version: 2.8.7
+  resolution: "prettier@npm:2.8.7"
+  bin:
+    prettier: bin-prettier.js
+  checksum: fdc8f2616f099f5f0d685907f4449a70595a0fc1d081a88919604375989e0d5e9168d6121d8cc6861f21990b31665828e00472544d785d5940ea08a17660c3a6
   languageName: node
   linkType: hard
 
