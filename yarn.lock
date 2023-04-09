@@ -91,7 +91,7 @@ __metadata:
   dependencies:
     "@sapphire/prettier-config": ^1.4.5
     husky: ^8.0.3
-    markdownlint: ^0.28.0
+    markdownlint: ^0.28.1
     markdownlint-cli2: ^0.6.0
     prettier: ^2.8.7
     pretty-quick: ^3.1.3
@@ -425,13 +425,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint@npm:^0.28.0":
-  version: 0.28.0
-  resolution: "markdownlint@npm:0.28.0"
+"markdownlint@npm:^0.28.1":
+  version: 0.28.1
+  resolution: "markdownlint@npm:0.28.1"
   dependencies:
     markdown-it: 13.0.1
     markdownlint-micromark: 0.1.2
-  checksum: b95758245fb5038339c49ce753b81034c07b5f349ce4f511a56afbffeb58e08ea725bc5f6e27b44ffd1415eef226e1982614739738fd6a68749e2902ef307e07
+  checksum: d606e3f069d9b261b9c4ed0533f035420f38a4a19d73b238b35ff51a854be72a38e87d80eb15432aace34837a45b7da12bfbccaea4f70792d1e66ee771ded6d5
   languageName: node
   linkType: hard
 
@@ -582,16 +582,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.8.2":
-  version: 2.8.4
-  resolution: "prettier@npm:2.8.4"
-  bin:
-    prettier: bin-prettier.js
-  checksum: c173064bf3df57b6d93d19aa98753b9b9dd7657212e33b41ada8e2e9f9884066bb9ca0b4005b89b3ab137efffdf8fbe0b462785aba20364798ff4303aadda57e
-  languageName: node
-  linkType: hard
-
-"prettier@npm:^2.8.7":
+"prettier@npm:^2.8.2, prettier@npm:^2.8.7":
   version: 2.8.7
   resolution: "prettier@npm:2.8.7"
   bin:
