@@ -15,8 +15,8 @@
 	"devDependencies": {
 		"@sapphire/prettier-config": "^1.4.5",
 		"husky": "^8.0.3",
-		"markdownlint": "^0.28.1",
-		"markdownlint-cli2": "^0.7.0",
+		"markdownlint": "^0.28.2",
+		"markdownlint-cli2": "^0.7.1",
 		"prettier": "^2.8.8",
 		"pretty-quick": "^3.1.3"
 	},
