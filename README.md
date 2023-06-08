@@ -48,6 +48,9 @@ choose either the regular badge or the flat one.
 - [@kaname-png/influxdb](https://github.com/kaname-png/neko-plugins/tree/main/packages/influxdb): Plugin for
   <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to publish stats to an
   <a href="https://www.influxdata.com">InfluxDB</a> instance.
+- [@kaname-png/sentry](https://github.com/kaname-png/neko-plugins/tree/main/packages/sentry): Plugin for
+  <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to publish errors to
+  <a href="https://sentry.io/">Sentry</a>.
 
 ## Utilities
 
