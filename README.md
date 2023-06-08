@@ -46,7 +46,7 @@ choose either the regular badge or the flat one.
   Plugin for [`@sapphire/framework`](https://github.com/sapphiredev/framework) to create and register subcommands using
   decorators and/or advanced class structures.
 - [@kaname-png/sentry](https://github.com/kaname-png/neko-plugins/tree/main/packages/sentry): Plugin for
-  <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to post error on
+  <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to publish errors to
   <a href="https://sentry.io/">Sentry</a>.
 
 ## Utilities
