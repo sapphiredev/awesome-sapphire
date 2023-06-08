@@ -46,8 +46,8 @@ choose either the regular badge or the flat one.
   Plugin for [`@sapphire/framework`](https://github.com/sapphiredev/framework) to create and register subcommands using
   decorators and/or advanced class structures.
 - [@kaname-png/influxdb](https://github.com/kaname-png/neko-plugins/tree/main/packages/influxdb): Plugin for
-  <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to post stats on
-  <a href="https://www.influxdata.com">InfluxDB</a>.
+  <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to publish stats to an
+  <a href="https://www.influxdata.com">InfluxDB</a> instance.
 
 ## Utilities
 
