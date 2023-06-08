@@ -42,9 +42,12 @@ choose either the regular badge or the flat one.
 - [@kaname-png/plugin-api-jwt](https://github.com/kaname-png/neko-plugins/tree/main/packages/api-jwt): Plugin for
   [`@sapphire/framework`](https://github.com/sapphiredev/framework) to use [JSON Web Tokens](https://jwt.io) instead of
   [HttpOnly Secure Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies).
-- [@kaname-png/plugin-subcommands-advanced](https://github.com/kaname-png/neko-plugins/tree/main/packages/subcommands-advanced#readme):
+- [@kaname-png/plugin-subcommands-advanced](https://github.com/kaname-png/neko-plugins/tree/main/packages/subcommands-advanced):
   Plugin for [`@sapphire/framework`](https://github.com/sapphiredev/framework) to create and register subcommands using
   decorators and/or advanced class structures.
+- [@kaname-png/influxdb](https://github.com/kaname-png/neko-plugins/tree/main/packages/influxdb): Plugin for
+  <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to publish stats to an
+  <a href="https://www.influxdata.com">InfluxDB</a> instance.
 - [@kaname-png/sentry](https://github.com/kaname-png/neko-plugins/tree/main/packages/sentry): Plugin for
   <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to publish errors to
   <a href="https://sentry.io/">Sentry</a>.
