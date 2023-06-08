@@ -46,11 +46,11 @@ choose either the regular badge or the flat one.
   Plugin for [`@sapphire/framework`](https://github.com/sapphiredev/framework) to create and register subcommands using
   decorators and/or advanced class structures.
 - [@kaname-png/influxdb](https://github.com/kaname-png/neko-plugins/tree/main/packages/influxdb): Plugin for
-  <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to publish stats to an
-  <a href="https://www.influxdata.com">InfluxDB</a> instance.
+  [`@sapphire/framework`](https://github.com/sapphiredev/framework) to publish stats to an
+  [`InfluxDB`](https://www.influxdata.com) instance.
 - [@kaname-png/sentry](https://github.com/kaname-png/neko-plugins/tree/main/packages/sentry): Plugin for
-  <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to publish errors to
-  <a href="https://sentry.io/">Sentry</a>.
+  [`@sapphire/framework`](https://github.com/sapphiredev/framework) to publish errors to
+  [`Sentry`](https://sentry.io/).
 
 ## Utilities
 
