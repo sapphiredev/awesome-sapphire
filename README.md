@@ -49,8 +49,7 @@ choose either the regular badge or the flat one.
   [`@sapphire/framework`](https://github.com/sapphiredev/framework) to publish stats to an
   [`InfluxDB`](https://www.influxdata.com) instance.
 - [@kaname-png/sentry](https://github.com/kaname-png/neko-plugins/tree/main/packages/sentry): Plugin for
-  [`@sapphire/framework`](https://github.com/sapphiredev/framework) to publish errors to
-  [`Sentry`](https://sentry.io/).
+  [`@sapphire/framework`](https://github.com/sapphiredev/framework) to publish errors to [`Sentry`](https://sentry.io/).
 
 ## Utilities
 
