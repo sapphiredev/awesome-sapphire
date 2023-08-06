@@ -19,7 +19,7 @@
 		"lint-staged": "^13.2.3",
 		"markdownlint": "^0.29.0",
 		"markdownlint-cli2": "^0.8.1",
-		"prettier": "^3.0.0"
+		"prettier": "^3.0.1"
 	},
 	"resolutions": {
 		"ansi-regex": "^5.0.1",
