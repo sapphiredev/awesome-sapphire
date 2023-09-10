@@ -78,7 +78,7 @@ __metadata:
     "@sapphire/prettier-config": ^2.0.0
     husky: ^8.0.3
     lint-staged: ^14.0.1
-    markdownlint: ^0.30.0
+    markdownlint: ^0.31.0
     markdownlint-cli2: ^0.9.2
     prettier: ^3.0.3
   languageName: unknown
@@ -454,13 +454,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint@npm:0.30.0, markdownlint@npm:^0.30.0":
+"markdownlint@npm:0.30.0":
   version: 0.30.0
   resolution: "markdownlint@npm:0.30.0"
   dependencies:
     markdown-it: 13.0.1
     markdownlint-micromark: 0.1.7
   checksum: cc99517c61fe8df9af918fafad314e685a8888162c476d6f7ef51555008c4f2581231e3930ea3d29b46a29307d2e4fce1c78db8dcd6962bf7069983e72cd3bba
+  languageName: node
+  linkType: hard
+
+"markdownlint@npm:^0.31.0":
+  version: 0.31.0
+  resolution: "markdownlint@npm:0.31.0"
+  dependencies:
+    markdown-it: 13.0.1
+    markdownlint-micromark: 0.1.7
+  checksum: 7c4b165d3b4247b8d0a7bf2a50c56d27cc7e0b7ce675d591dc83118dec743f94cadb5ce14d5df5c40a46f3b604de27bfc3b001481f3cd46bf1968634a03d30fc
   languageName: node
   linkType: hard
 
