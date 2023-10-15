@@ -10,12 +10,10 @@
 		"prettier": "prettier --ignore-path=.prettierignore",
 		"format": "prettier --write \"*.md\"",
 		"format:check": "prettier --check \"*.md\"",
-		"update": "yarn upgrade-interactive",
-		"postinstall": "husky install .github/husky"
+		"update": "yarn upgrade-interactive"
 	},
 	"devDependencies": {
 		"@sapphire/prettier-config": "^2.0.0",
-		"husky": "^8.0.3",
 		"lint-staged": "^15.0.1",
 		"markdownlint": "^0.31.1",
 		"markdownlint-cli2": "^0.10.0",

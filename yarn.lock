@@ -76,7 +76,6 @@ __metadata:
   resolution: "awesome-sapphire@workspace:."
   dependencies:
     "@sapphire/prettier-config": ^2.0.0
-    husky: ^8.0.3
     lint-staged: ^15.0.1
     markdownlint: ^0.31.1
     markdownlint-cli2: ^0.10.0
@@ -274,15 +273,6 @@ __metadata:
   version: 5.0.0
   resolution: "human-signals@npm:5.0.0"
   checksum: 6504560d5ed91444f16bea3bd9dfc66110a339442084e56c3e7fa7bbdf3f406426d6563d662bdce67064b165eac31eeabfc0857ed170aaa612cf14ec9f9a464c
-  languageName: node
-  linkType: hard
-
-"husky@npm:^8.0.3":
-  version: 8.0.3
-  resolution: "husky@npm:8.0.3"
-  bin:
-    husky: lib/bin.js
-  checksum: 837bc7e4413e58c1f2946d38fb050f5d7324c6f16b0fd66411ffce5703b294bd21429e8ba58711cd331951ee86ed529c5be4f76805959ff668a337dbfa82a1b0
   languageName: node
   linkType: hard
 
