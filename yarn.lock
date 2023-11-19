@@ -77,9 +77,9 @@ __metadata:
   dependencies:
     "@sapphire/prettier-config": "npm:^2.0.0"
     lint-staged: "npm:^15.1.0"
-    markdownlint: "npm:^0.31.1"
+    markdownlint: "npm:^0.32.1"
     markdownlint-cli2: "npm:^0.10.0"
-    prettier: "npm:^3.0.3"
+    prettier: "npm:^3.1.0"
   languageName: unknown
   linkType: soft
 
@@ -405,6 +405,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"markdown-it@npm:13.0.2":
+  version: 13.0.2
+  resolution: "markdown-it@npm:13.0.2"
+  dependencies:
+    argparse: "npm:^2.0.1"
+    entities: "npm:~3.0.1"
+    linkify-it: "npm:^4.0.1"
+    mdurl: "npm:^1.0.1"
+    uc.micro: "npm:^1.0.5"
+  bin:
+    markdown-it: bin/markdown-it.js
+  checksum: 4f48271bbd44d16502efd4148d7c05ca1fb4b50719a07d34c91e8d16f8d065c558fed0fafe07cd13ca5958096bfe295b37cd4f042add7ec49f73c70154e75f58
+  languageName: node
+  linkType: hard
+
 "markdownlint-cli2-formatter-default@npm:0.0.4":
   version: 0.0.4
   resolution: "markdownlint-cli2-formatter-default@npm:0.0.4"
@@ -439,13 +454,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint@npm:0.31.1, markdownlint@npm:^0.31.1":
+"markdownlint@npm:0.31.1":
   version: 0.31.1
   resolution: "markdownlint@npm:0.31.1"
   dependencies:
     markdown-it: "npm:13.0.1"
     markdownlint-micromark: "npm:0.1.7"
   checksum: 7fcac16f869325f7320c9c7fa3eae2d00de5f1e83fcfe54af57a337bd99d853aeab99012090612cecf38088ca77936e4690af64703641a48ce2adcc141c4fffa
+  languageName: node
+  linkType: hard
+
+"markdownlint@npm:^0.32.1":
+  version: 0.32.1
+  resolution: "markdownlint@npm:0.32.1"
+  dependencies:
+    markdown-it: "npm:13.0.2"
+    markdownlint-micromark: "npm:0.1.7"
+  checksum: 7d6fb3ac1ea25be3851406249e91c6555089d82b0c1b31f9a6be39c08f11e999c308b8cca32d6e7f09febb0d87fab8fd5762be38a8c952f459b0cb38ba0174be
   languageName: node
   linkType: hard
 
@@ -565,12 +590,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.0.0, prettier@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "prettier@npm:3.0.3"
+"prettier@npm:^3.0.0, prettier@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "prettier@npm:3.1.0"
   bin:
     prettier: bin/prettier.cjs
-  checksum: ccf1ead9794b017be6b42d0873f459070beef2069eb393c8b4c0d11aa3430acefc54f6d5f44a5b7ce9af05ad8daf694b912f0aa2808d1c22dfa86e61e9d563f8
+  checksum: e95e8f93c6b9aea2ac1e86bebe329bee90c8c50d9a23d1f593eba8d7f39b33b3641eb28785001505b6723c47895a5322ad12a2fb855b289cb7bae450ffc34425
   languageName: node
   linkType: hard
 
