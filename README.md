@@ -50,8 +50,9 @@ choose either the regular badge or the flat one.
   [`InfluxDB`](https://www.influxdata.com) instance.
 - [@kaname-png/sentry](https://github.com/kaname-png/neko-plugins/tree/main/packages/sentry): Plugin for
   [`@sapphire/framework`](https://github.com/sapphiredev/framework) to publish errors to [`Sentry`](https://sentry.io/).
-- [@kbotdev/plugin-modules](https://github.com/KBot-discord/plugins/tree/main/packages/modules): Group commands and
-  features into modules, and allow them to be enabled and disabled on a per-guild basis.
+- [@kbotdev/plugin-modules](https://github.com/KBot-discord/plugins/tree/main/packages/modules#readme): Plugin for
+  [`@sapphire/framework`](https://github.com/sapphiredev/framework) to group commands and features into modules, and
+  allow them to be enabled and disabled on a per-guild basis.
   
 
 ## Utilities
