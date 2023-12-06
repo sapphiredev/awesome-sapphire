@@ -53,7 +53,6 @@ choose either the regular badge or the flat one.
 - [@kbotdev/plugin-modules](https://github.com/KBot-discord/plugins/tree/main/packages/modules#readme): Plugin for
   [`@sapphire/framework`](https://github.com/sapphiredev/framework) to group commands and features into modules, and
   allow them to be enabled and disabled on a per-guild basis.
-  
 
 ## Utilities
 
