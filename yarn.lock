@@ -84,7 +84,7 @@ __metadata:
   dependencies:
     "@sapphire/prettier-config": "npm:^2.0.0"
     lint-staged: "npm:^15.2.2"
-    markdownlint: "npm:^0.33.0"
+    markdownlint: "npm:^0.34.0"
     markdownlint-cli2: "npm:^0.12.1"
     prettier: "npm:^3.2.5"
   languageName: unknown
@@ -421,6 +421,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"markdown-it@npm:14.1.0":
+  version: 14.1.0
+  resolution: "markdown-it@npm:14.1.0"
+  dependencies:
+    argparse: "npm:^2.0.1"
+    entities: "npm:^4.4.0"
+    linkify-it: "npm:^5.0.0"
+    mdurl: "npm:^2.0.0"
+    punycode.js: "npm:^2.3.1"
+    uc.micro: "npm:^2.1.0"
+  bin:
+    markdown-it: bin/markdown-it.mjs
+  checksum: 10/f34f921be178ed0607ba9e3e27c733642be445e9bb6b1dba88da7aafe8ba1bc5d2f1c3aa8f3fc33b49a902da4e4c08c2feadfafb290b8c7dda766208bb6483a9
+  languageName: node
+  linkType: hard
+
 "markdownlint-cli2-formatter-default@npm:0.0.4":
   version: 0.0.4
   resolution: "markdownlint-cli2-formatter-default@npm:0.0.4"
@@ -453,13 +469,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint@npm:0.33.0, markdownlint@npm:^0.33.0":
+"markdownlint-micromark@npm:0.1.9":
+  version: 0.1.9
+  resolution: "markdownlint-micromark@npm:0.1.9"
+  checksum: 10/5afe89df00bfa07868aea5be4b4f68ee294ab86948e405371c503054e819c34de4c7db800422c4b3cf913625c6868cd0c2b4787d6136ffa907545026f7d564de
+  languageName: node
+  linkType: hard
+
+"markdownlint@npm:0.33.0":
   version: 0.33.0
   resolution: "markdownlint@npm:0.33.0"
   dependencies:
     markdown-it: "npm:14.0.0"
     markdownlint-micromark: "npm:0.1.8"
   checksum: 10/1dca707fd1247579ae90bde4c60d338e34385cac285fcc00d48add7da2908b6bc63e47e34f1c9f902f8d8e0ce5b009643fc0fdbedfab35ca6f1cb0b6a8eae5ac
+  languageName: node
+  linkType: hard
+
+"markdownlint@npm:^0.34.0":
+  version: 0.34.0
+  resolution: "markdownlint@npm:0.34.0"
+  dependencies:
+    markdown-it: "npm:14.1.0"
+    markdownlint-micromark: "npm:0.1.9"
+  checksum: 10/668900d3d94bffb9856ca3fccfdb7246c9541a5f910b3295c0cad3e49ab6a57a77c43d41c0febb9831a70888ebfc73ba7ab6e4098e2d99dc5c2d4317ca8d4087
   languageName: node
   linkType: hard
 
@@ -742,10 +775,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uc.micro@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "uc.micro@npm:2.0.0"
-  checksum: 10/86e142c239ed01360b9d705a9e194cfb55cfee2dbd22ffa52465a6270e3308dfc23347550d46836e60ea97dcf6cf57eef9531e5ac22e418fb994c0f761a74fa0
+"uc.micro@npm:^2.0.0, uc.micro@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "uc.micro@npm:2.1.0"
+  checksum: 10/37197358242eb9afe367502d4638ac8c5838b78792ab218eafe48287b0ed28aaca268ec0392cc5729f6c90266744de32c06ae938549aee041fc93b0f9672d6b2
   languageName: node
   linkType: hard
 
