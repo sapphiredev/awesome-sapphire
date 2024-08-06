@@ -14,10 +14,10 @@
 	},
 	"devDependencies": {
 		"@sapphire/prettier-config": "^2.0.0",
-		"lint-staged": "^15.2.7",
+		"lint-staged": "^15.2.8",
 		"markdownlint": "^0.34.0",
 		"markdownlint-cli2": "^0.13.0",
-		"prettier": "^3.3.2"
+		"prettier": "^3.3.3"
 	},
 	"resolutions": {
 		"ansi-regex": "^6.0.1",
@@ -26,5 +26,5 @@
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
 	},
-	"packageManager": "yarn@4.3.1"
+	"packageManager": "yarn@4.4.0"
 }
