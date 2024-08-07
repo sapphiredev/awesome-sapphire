@@ -60,8 +60,7 @@ choose either the regular badge or the flat one.
   support for [`@sapphire/plugin-i18next`](https://github.com/sapphiredev/plugins/tree/main/packages/i18next) based on
   the original [i18n-ally](https://github.com/lokalise/i18n-ally) -
   [VSCode Extension page](https://marketplace.visualstudio.com/items?itemName=mzato0001.sapphire-i18n-ally)
-- [fearandesire/saph-convert](https://github.com/fearandesire/saph-convert#readme) - CLI tool to convert Sapphire.js commands from JavaScript to TypeScript.
-- [fearandesire/saph-convert](https://github.com/fearandesire/saph-convert) - CLI tool to convert Sapphire.js commands from JavaScript to TypeScript.
+- [saph-convert](https://github.com/fearandesire/saph-convert): This NodeJS CLI tool can convert Sapphire commands written in JavaScript to TypeScript.
 
 ## Reading
 
