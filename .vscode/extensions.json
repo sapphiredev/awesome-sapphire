@@ -1,7 +1,6 @@
 {
 	"recommendations": [
 		"bierner.github-markdown-preview",
-		"christian-kohler.path-intellisense",
 		"davidanson.vscode-markdownlint",
 		"esbenp.prettier-vscode",
 		"mdickin.markdown-shortcuts",
