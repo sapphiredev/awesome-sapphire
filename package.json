@@ -7,7 +7,6 @@
 	"scripts": {
 		"lint": "markdownlint-cli2-fix",
 		"lint:no-fix": "markdownlint-cli2",
-		"prettier": "prettier --ignore-path=.prettierignore",
 		"format": "prettier --write \"*.md\"",
 		"format:check": "prettier --check \"*.md\"",
 		"update": "yarn upgrade-interactive"

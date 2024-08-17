@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: CI
 
 on:
   push:
@@ -7,40 +7,19 @@ on:
   pull_request:
 
 jobs:
-  MarkdownLint:
-    name: MarkdownLint
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Project
-        uses: actions/checkout@v4
-        with:
-          submodules: true
-      - name: Use Node.js 18
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: yarn
-          registry-url: https://registry.npmjs.org/
-      - name: Install Dependencies
-        run: yarn --immutable
-      - name: Run MarkdownLint
-        run: yarn lint:no-fix
+  formatting:
+    name: Formatting
+    uses: sapphiredev/.github/.github/workflows/reusable-prettier.yml@main
 
-  Prettier:
-    name: Prettier Validation
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Project
-        uses: actions/checkout@v4
-        with:
-          submodules: true
-      - name: Use Node.js 18
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: yarn
-          registry-url: https://registry.npmjs.org/
-      - name: Install Dependencies
-        run: yarn --immutable
-      - name: Run Prettier
-        run: yarn format:check
+  markdownlint:
+    name: MarkdownLint
+    uses: sapphiredev/.github/.github/workflows/reusable-yarn-job.yml@main
+    with:
+      script-name: lint:no-fix
+
+  sonar:
+    name: Sonar Analysis
+    uses: sapphiredev/.github/.github/workflows/reusable-sonar.yml@main
+    secrets:
+      SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
