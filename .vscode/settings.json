@@ -11,5 +11,9 @@
 		"**/bower_components": true,
 		"**/node_modules": true,
 		"**/projects/": true
+	},
+	"sonarlint.connectedMode.project": {
+		"connectionId": "https-sonarqube-sapphirejs-dev",
+		"projectKey": "sapphiredev_awesome-sapphire_ed89b13c-ca4e-42e1-aba4-3c7bf90102ee"
 	}
 }
