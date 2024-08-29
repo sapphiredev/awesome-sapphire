@@ -54,7 +54,7 @@ choose either the regular badge or the flat one.
   [`@sapphire/framework`](https://github.com/sapphiredev/framework) to group commands and features into modules, and
   allow them to be enabled and disabled on a per-guild basis.
 - [@kingsworld/plugin-cron](https://github.com/Kings-World/sapphire-plugins/tree/main/packages/cron): Plugin for
-  [`@sapphire/framework`](https://github.com/sapphiredev/framework) to add support for cron jobs using the [`cron`](https://www.npmjs.com/package/cron) package.
+  [`@sapphire/framework`](https://github.com/sapphiredev/framework) to support cron jobs using the [`cron`](https://www.npmjs.com/package/cron) package.
 
 ## Utilities
 
