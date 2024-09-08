@@ -83,14 +83,14 @@ __metadata:
   resolution: "awesome-sapphire@workspace:."
   dependencies:
     "@sapphire/prettier-config": "npm:^2.0.0"
-    lint-staged: "npm:^15.2.9"
+    lint-staged: "npm:^15.2.10"
     markdownlint: "npm:^0.35.0"
-    markdownlint-cli2: "npm:^0.13.0"
+    markdownlint-cli2: "npm:^0.14.0"
     prettier: "npm:^3.3.3"
   languageName: unknown
   linkType: soft
 
-"braces@npm:^3.0.2, braces@npm:^3.0.3":
+"braces@npm:^3.0.3":
   version: 3.0.3
   resolution: "braces@npm:3.0.3"
   dependencies:
@@ -261,9 +261,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:14.0.1":
-  version: 14.0.1
-  resolution: "globby@npm:14.0.1"
+"globby@npm:14.0.2":
+  version: 14.0.2
+  resolution: "globby@npm:14.0.2"
   dependencies:
     "@sindresorhus/merge-streams": "npm:^2.1.0"
     fast-glob: "npm:^3.3.2"
@@ -271,7 +271,7 @@ __metadata:
     path-type: "npm:^5.0.0"
     slash: "npm:^5.1.0"
     unicorn-magic: "npm:^0.1.0"
-  checksum: 10/b36f57afc45a857a884d82657603c7e1663b1e6f3f9afbeb53d12e42230469fc5b26a7e14a01e51086f3f25c138f58a7002036fcc8f3ca054097b6dd7c71d639
+  checksum: 10/67660da70fc1223f7170c1a62ba6c373385e9e39765d952b6518606dec15ed8c7958e9dae6ba5752a31dbc1e9126f146938b830ad680fe794141734ffc3fbb75
   languageName: node
   linkType: hard
 
@@ -353,10 +353,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonc-parser@npm:3.2.1":
-  version: 3.2.1
-  resolution: "jsonc-parser@npm:3.2.1"
-  checksum: 10/fe2df6f39e21653781d52cae20c5b9e0ab62461918d97f9430b216cea9b6500efc1d8b42c6584cc0a7548b4c996055e9cdc39f09b9782fa6957af2f45306c530
+"jsonc-parser@npm:3.3.1":
+  version: 3.3.1
+  resolution: "jsonc-parser@npm:3.3.1"
+  checksum: 10/9b0dc391f20b47378f843ef1e877e73ec652a5bdc3c5fa1f36af0f119a55091d147a86c1ee86a232296f55c929bba174538c2bf0312610e0817a22de131cc3f4
   languageName: node
   linkType: hard
 
@@ -376,9 +376,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^15.2.9":
-  version: 15.2.9
-  resolution: "lint-staged@npm:15.2.9"
+"lint-staged@npm:^15.2.10":
+  version: 15.2.10
+  resolution: "lint-staged@npm:15.2.10"
   dependencies:
     chalk: "npm:~5.3.0"
     commander: "npm:~12.1.0"
@@ -386,13 +386,13 @@ __metadata:
     execa: "npm:~8.0.1"
     lilconfig: "npm:~3.1.2"
     listr2: "npm:~8.2.4"
-    micromatch: "npm:~4.0.7"
+    micromatch: "npm:~4.0.8"
     pidtree: "npm:~0.6.0"
     string-argv: "npm:~0.3.2"
     yaml: "npm:~2.5.0"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 10/2f7342ca3fc7e2a8a0cc3db79ca8d2ad0269b98b13220f3a6745a514aacf1f83487a23a550569081ea962f9a576af7df8d687a8330a9c3c2c27348d5a4d5440e
+  checksum: 10/ab6930cd633dbb5b6ec7c81fc06c65df41e9f80d93dd22e0d79c6e272cdfd8110a0fbdec60303d46a06b30bcd92261153630e2c937531b77ec5ae41e7e9d90d3
   languageName: node
   linkType: hard
 
@@ -439,28 +439,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint-cli2-formatter-default@npm:0.0.4":
-  version: 0.0.4
-  resolution: "markdownlint-cli2-formatter-default@npm:0.0.4"
+"markdownlint-cli2-formatter-default@npm:0.0.5":
+  version: 0.0.5
+  resolution: "markdownlint-cli2-formatter-default@npm:0.0.5"
   peerDependencies:
     markdownlint-cli2: ">=0.0.4"
-  checksum: 10/533971d6b04e5ff283af497bf13ba4a18aff582439a36e9fceeb01ab74b432085d1deccfa1e84e585fc7a12f5cd89d15fc6ccb797a8efd25d673d6d3b9a4c076
+  checksum: 10/b99828fb295e96ba30fbc365c363e8811ffa70f2334d3ecad04bc1396f6c19c33448da76019f90f523415e7ae557d1be381ceb77a03590c9017d355b7cbab277
   languageName: node
   linkType: hard
 
-"markdownlint-cli2@npm:^0.13.0":
-  version: 0.13.0
-  resolution: "markdownlint-cli2@npm:0.13.0"
+"markdownlint-cli2@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "markdownlint-cli2@npm:0.14.0"
   dependencies:
-    globby: "npm:14.0.1"
+    globby: "npm:14.0.2"
     js-yaml: "npm:4.1.0"
-    jsonc-parser: "npm:3.2.1"
-    markdownlint: "npm:0.34.0"
-    markdownlint-cli2-formatter-default: "npm:0.0.4"
-    micromatch: "npm:4.0.5"
+    jsonc-parser: "npm:3.3.1"
+    markdownlint: "npm:0.35.0"
+    markdownlint-cli2-formatter-default: "npm:0.0.5"
+    micromatch: "npm:4.0.8"
   bin:
     markdownlint-cli2: markdownlint-cli2.js
-  checksum: 10/786db4dfe43483c2643f8fbd9e07aeac024c4be4f052ab772d19d53f8175a3ba25045e26ab465c259cac410b62b2e35632f5feb476b4457e0bd850430508831f
+  checksum: 10/6d3c356da54a0d452e50e0299da4ac9d776395b06faae666bbe16af962631bfbf8c977e79210d2a5121b98f4eecb18e01d5efc894b3db3e1e70421fde6c502de
   languageName: node
   linkType: hard
 
@@ -471,24 +471,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint-micromark@npm:0.1.9":
-  version: 0.1.9
-  resolution: "markdownlint-micromark@npm:0.1.9"
-  checksum: 10/5afe89df00bfa07868aea5be4b4f68ee294ab86948e405371c503054e819c34de4c7db800422c4b3cf913625c6868cd0c2b4787d6136ffa907545026f7d564de
-  languageName: node
-  linkType: hard
-
-"markdownlint@npm:0.34.0":
-  version: 0.34.0
-  resolution: "markdownlint@npm:0.34.0"
-  dependencies:
-    markdown-it: "npm:14.1.0"
-    markdownlint-micromark: "npm:0.1.9"
-  checksum: 10/668900d3d94bffb9856ca3fccfdb7246c9541a5f910b3295c0cad3e49ab6a57a77c43d41c0febb9831a70888ebfc73ba7ab6e4098e2d99dc5c2d4317ca8d4087
-  languageName: node
-  linkType: hard
-
-"markdownlint@npm:^0.35.0":
+"markdownlint@npm:0.35.0, markdownlint@npm:^0.35.0":
   version: 0.35.0
   resolution: "markdownlint@npm:0.35.0"
   dependencies:
@@ -519,23 +502,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:4.0.5":
-  version: 4.0.5
-  resolution: "micromatch@npm:4.0.5"
-  dependencies:
-    braces: "npm:^3.0.2"
-    picomatch: "npm:^2.3.1"
-  checksum: 10/a749888789fc15cac0e03273844dbd749f9f8e8d64e70c564bcf06a033129554c789bb9e30d7566d7ff6596611a08e58ac12cf2a05f6e3c9c47c50c4c7e12fa2
-  languageName: node
-  linkType: hard
-
-"micromatch@npm:^4.0.4, micromatch@npm:~4.0.7":
-  version: 4.0.7
-  resolution: "micromatch@npm:4.0.7"
+"micromatch@npm:4.0.8, micromatch@npm:^4.0.4, micromatch@npm:~4.0.8":
+  version: 4.0.8
+  resolution: "micromatch@npm:4.0.8"
   dependencies:
     braces: "npm:^3.0.3"
     picomatch: "npm:^2.3.1"
-  checksum: 10/a11ed1cb67dcbbe9a5fc02c4062cf8bb0157d73bf86956003af8dcfdf9b287f9e15ec0f6d6925ff6b8b5b496202335e497b01de4d95ef6cf06411bc5e5c474a0
+  checksum: 10/6bf2a01672e7965eb9941d1f02044fad2bd12486b5553dc1116ff24c09a8723157601dc992e74c911d896175918448762df3b3fd0a6b61037dd1a9766ddfbf58
   languageName: node
   linkType: hard
 
