@@ -84,7 +84,7 @@ __metadata:
   dependencies:
     "@sapphire/prettier-config": "npm:^2.0.0"
     lint-staged: "npm:^15.2.10"
-    markdownlint: "npm:^0.35.0"
+    markdownlint: "npm:^0.36.0"
     markdownlint-cli2: "npm:^0.14.0"
     prettier: "npm:^3.3.3"
   languageName: unknown
@@ -471,13 +471,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint@npm:0.35.0, markdownlint@npm:^0.35.0":
+"markdownlint-micromark@npm:0.1.12":
+  version: 0.1.12
+  resolution: "markdownlint-micromark@npm:0.1.12"
+  checksum: 10/99d753b4dafa3c390b96332d02658112eeb131644ff4ab55a2320557a0d52b038998be5a5b5f9c450fdfc25d7c4701f56b36116f114cec1ff191410a0b0e4997
+  languageName: node
+  linkType: hard
+
+"markdownlint@npm:0.35.0":
   version: 0.35.0
   resolution: "markdownlint@npm:0.35.0"
   dependencies:
     markdown-it: "npm:14.1.0"
     markdownlint-micromark: "npm:0.1.10"
   checksum: 10/5aceb6b0d4eb6147d8c7f3b5a4804a2aa1f73f5fe46058bb58500eee7b5ca4e62bdb510039ff5680d3f0313bdb69e4f3c107af07bb6f741f9ce72d7d6c562df2
+  languageName: node
+  linkType: hard
+
+"markdownlint@npm:^0.36.0":
+  version: 0.36.0
+  resolution: "markdownlint@npm:0.36.0"
+  dependencies:
+    markdown-it: "npm:14.1.0"
+    markdownlint-micromark: "npm:0.1.12"
+  checksum: 10/60914109ce6ab708451f937d8c03d4b75b784070bcf256a4a2cfe77abae8c0a139c024e36e5f44ece28fde48aba981fbc127099b1cc0dec0840d9be3cf62aeaa
   languageName: node
   linkType: hard
 
