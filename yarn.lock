@@ -85,7 +85,7 @@ __metadata:
     "@sapphire/prettier-config": "npm:^2.0.0"
     lint-staged: "npm:^15.2.10"
     markdownlint: "npm:^0.36.1"
-    markdownlint-cli2: "npm:^0.14.0"
+    markdownlint-cli2: "npm:^0.15.0"
     prettier: "npm:^3.3.3"
   languageName: unknown
   linkType: soft
@@ -448,26 +448,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint-cli2@npm:^0.14.0":
-  version: 0.14.0
-  resolution: "markdownlint-cli2@npm:0.14.0"
+"markdownlint-cli2@npm:^0.15.0":
+  version: 0.15.0
+  resolution: "markdownlint-cli2@npm:0.15.0"
   dependencies:
     globby: "npm:14.0.2"
     js-yaml: "npm:4.1.0"
     jsonc-parser: "npm:3.3.1"
-    markdownlint: "npm:0.35.0"
+    markdownlint: "npm:0.36.1"
     markdownlint-cli2-formatter-default: "npm:0.0.5"
     micromatch: "npm:4.0.8"
   bin:
     markdownlint-cli2: markdownlint-cli2.js
-  checksum: 10/6d3c356da54a0d452e50e0299da4ac9d776395b06faae666bbe16af962631bfbf8c977e79210d2a5121b98f4eecb18e01d5efc894b3db3e1e70421fde6c502de
-  languageName: node
-  linkType: hard
-
-"markdownlint-micromark@npm:0.1.10":
-  version: 0.1.10
-  resolution: "markdownlint-micromark@npm:0.1.10"
-  checksum: 10/d4449f1010e40d0619a25d9292a8b8f50ba264d23195798e802b559625e5f3ad0a2e350b15655dba2e23522cea62efd05df260ef6c5bc65a4f2de9b9e2a3d81a
+  checksum: 10/ac47d757921f6fc0c4b3773b67728abd986d59ce2505b2f764501f9bb71ee1d3264713fb8a725bb85dd70a55fad667d9bcb404f2cb8ebf08ca54f71e0a8b9486
   languageName: node
   linkType: hard
 
@@ -478,17 +471,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint@npm:0.35.0":
-  version: 0.35.0
-  resolution: "markdownlint@npm:0.35.0"
-  dependencies:
-    markdown-it: "npm:14.1.0"
-    markdownlint-micromark: "npm:0.1.10"
-  checksum: 10/5aceb6b0d4eb6147d8c7f3b5a4804a2aa1f73f5fe46058bb58500eee7b5ca4e62bdb510039ff5680d3f0313bdb69e4f3c107af07bb6f741f9ce72d7d6c562df2
-  languageName: node
-  linkType: hard
-
-"markdownlint@npm:^0.36.1":
+"markdownlint@npm:0.36.1, markdownlint@npm:^0.36.1":
   version: 0.36.1
   resolution: "markdownlint@npm:0.36.1"
   dependencies:
