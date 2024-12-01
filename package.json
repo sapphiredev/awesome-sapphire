@@ -16,7 +16,7 @@
 		"lint-staged": "^15.2.10",
 		"markdownlint": "^0.36.1",
 		"markdownlint-cli2": "^0.15.0",
-		"prettier": "^3.3.3"
+		"prettier": "^3.4.1"
 	},
 	"resolutions": {
 		"ansi-regex": "^6.1.0",
@@ -25,5 +25,5 @@
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
 	},
-	"packageManager": "yarn@4.5.2"
+	"packageManager": "yarn@4.5.3"
 }
