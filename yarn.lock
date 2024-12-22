@@ -114,7 +114,7 @@ __metadata:
   dependencies:
     "@sapphire/prettier-config": "npm:^2.0.0"
     lint-staged: "npm:^15.2.11"
-    markdownlint: "npm:^0.37.1"
+    markdownlint: "npm:^0.37.2"
     markdownlint-cli2: "npm:^0.16.0"
     prettier: "npm:^3.4.2"
   languageName: unknown
@@ -606,9 +606,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint@npm:^0.37.1":
-  version: 0.37.1
-  resolution: "markdownlint@npm:0.37.1"
+"markdownlint@npm:^0.37.2":
+  version: 0.37.2
+  resolution: "markdownlint@npm:0.37.2"
   dependencies:
     markdown-it: "npm:14.1.0"
     micromark: "npm:4.0.1"
@@ -618,7 +618,7 @@ __metadata:
     micromark-extension-gfm-table: "npm:2.1.0"
     micromark-extension-math: "npm:3.1.0"
     micromark-util-types: "npm:2.0.1"
-  checksum: 10/8e7fabf187cf5b65b3b385cac6d920297a328879e6eef2363d20e16239d5453fc2e16babde11f8edff50e67ab5901400f08e72b39717664d2980bcda34de8b2b
+  checksum: 10/bfa2706510adc7ef24e3a79aa25b43c1a11035df52c63656b0e46b1a9b4dda2a7352b724ec592cbe86cb67c41b5f61c43b748db9bcc79505518870dc28443c11
   languageName: node
   linkType: hard
 
