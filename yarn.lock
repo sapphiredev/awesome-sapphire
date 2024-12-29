@@ -113,9 +113,9 @@ __metadata:
   resolution: "awesome-sapphire@workspace:."
   dependencies:
     "@sapphire/prettier-config": "npm:^2.0.0"
-    lint-staged: "npm:^15.2.11"
+    lint-staged: "npm:^15.3.0"
     markdownlint: "npm:^0.37.2"
-    markdownlint-cli2: "npm:^0.16.0"
+    markdownlint-cli2: "npm:^0.17.0"
     prettier: "npm:^3.4.2"
   languageName: unknown
   linkType: soft
@@ -129,10 +129,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:~5.3.0":
-  version: 5.3.0
-  resolution: "chalk@npm:5.3.0"
-  checksum: 10/6373caaab21bd64c405bfc4bd9672b145647fc9482657b5ea1d549b3b2765054e9d3d928870cdf764fb4aad67555f5061538ff247b8310f110c5c888d92397ea
+"chalk@npm:~5.4.1":
+  version: 5.4.1
+  resolution: "chalk@npm:5.4.1"
+  checksum: 10/29df3ffcdf25656fed6e95962e2ef86d14dfe03cd50e7074b06bad9ffbbf6089adbb40f75c00744d843685c8d008adaf3aed31476780312553caf07fa86e5bc7
   languageName: node
   linkType: hard
 
@@ -501,11 +501,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^15.2.11":
-  version: 15.2.11
-  resolution: "lint-staged@npm:15.2.11"
+"lint-staged@npm:^15.3.0":
+  version: 15.3.0
+  resolution: "lint-staged@npm:15.3.0"
   dependencies:
-    chalk: "npm:~5.3.0"
+    chalk: "npm:~5.4.1"
     commander: "npm:~12.1.0"
     debug: "npm:~4.4.0"
     execa: "npm:~8.0.1"
@@ -517,7 +517,7 @@ __metadata:
     yaml: "npm:~2.6.1"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 10/b3fa66401fee667c39b28ed8d0dc28213e6c23d5cb88ca599e030e1eb7fd4ed199f2e3c4b02ae65ded9f5a30e0168a4c3cf3a3cf12959f195864962dba37e917
+  checksum: 10/b19ce450641f6cc76be8399658423f0dfa9f9a471aaa427c10bef6a1de2017f1c2547e293de908a57b9202ee20a19fd2305aec3e435cb1d4cfc1d03ace843e9f
   languageName: node
   linkType: hard
 
@@ -573,40 +573,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint-cli2@npm:^0.16.0":
-  version: 0.16.0
-  resolution: "markdownlint-cli2@npm:0.16.0"
+"markdownlint-cli2@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "markdownlint-cli2@npm:0.17.0"
   dependencies:
     globby: "npm:14.0.2"
     js-yaml: "npm:4.1.0"
     jsonc-parser: "npm:3.3.1"
-    markdownlint: "npm:0.36.1"
+    markdownlint: "npm:0.37.2"
     markdownlint-cli2-formatter-default: "npm:0.0.5"
     micromatch: "npm:4.0.8"
   bin:
-    markdownlint-cli2: markdownlint-cli2.js
-  checksum: 10/aeec04f3c61f10a0e2d65993ea309d0caf7574969353315e2a17460cf82897757c24674bc05e03908c8f0a8981e7ab0fc92697bb024bb5d43c4dfa079b5aed70
+    markdownlint-cli2: markdownlint-cli2-bin.mjs
+  checksum: 10/d7002a7bba765d388c5b28310563ea5391c5b3223fef6ac542ef1ef4cde7f5830e3f93c0a144e0b3e9dcdd05ba41bc2bac05238ea2212931b38e354c3cb3d980
   languageName: node
   linkType: hard
 
-"markdownlint-micromark@npm:0.1.12":
-  version: 0.1.12
-  resolution: "markdownlint-micromark@npm:0.1.12"
-  checksum: 10/99d753b4dafa3c390b96332d02658112eeb131644ff4ab55a2320557a0d52b038998be5a5b5f9c450fdfc25d7c4701f56b36116f114cec1ff191410a0b0e4997
-  languageName: node
-  linkType: hard
-
-"markdownlint@npm:0.36.1":
-  version: 0.36.1
-  resolution: "markdownlint@npm:0.36.1"
-  dependencies:
-    markdown-it: "npm:14.1.0"
-    markdownlint-micromark: "npm:0.1.12"
-  checksum: 10/36606c186293d3879d6890505310d82943de62370047a8bd92800e134c54b51f9c2bba270aacc23df7a844287deefbbc73457aebe2c7a49d58b38f1bf4fe94aa
-  languageName: node
-  linkType: hard
-
-"markdownlint@npm:^0.37.2":
+"markdownlint@npm:0.37.2, markdownlint@npm:^0.37.2":
   version: 0.37.2
   resolution: "markdownlint@npm:0.37.2"
   dependencies:
