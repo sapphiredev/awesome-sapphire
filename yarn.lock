@@ -114,8 +114,8 @@ __metadata:
   dependencies:
     "@sapphire/prettier-config": "npm:^2.0.0"
     lint-staged: "npm:^15.3.0"
-    markdownlint: "npm:^0.37.2"
-    markdownlint-cli2: "npm:^0.17.0"
+    markdownlint: "npm:^0.37.3"
+    markdownlint-cli2: "npm:^0.17.1"
     prettier: "npm:^3.4.2"
   languageName: unknown
   linkType: soft
@@ -573,35 +573,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint-cli2@npm:^0.17.0":
-  version: 0.17.0
-  resolution: "markdownlint-cli2@npm:0.17.0"
+"markdownlint-cli2@npm:^0.17.1":
+  version: 0.17.1
+  resolution: "markdownlint-cli2@npm:0.17.1"
   dependencies:
     globby: "npm:14.0.2"
     js-yaml: "npm:4.1.0"
     jsonc-parser: "npm:3.3.1"
-    markdownlint: "npm:0.37.2"
+    markdownlint: "npm:0.37.3"
     markdownlint-cli2-formatter-default: "npm:0.0.5"
     micromatch: "npm:4.0.8"
   bin:
     markdownlint-cli2: markdownlint-cli2-bin.mjs
-  checksum: 10/d7002a7bba765d388c5b28310563ea5391c5b3223fef6ac542ef1ef4cde7f5830e3f93c0a144e0b3e9dcdd05ba41bc2bac05238ea2212931b38e354c3cb3d980
+  checksum: 10/5affa15c79b56e27e68de120274fd76887d864f57e7e6c0fb4c5c1d4abcd0f183993b84aa1c0ebe32de2eedafd70bed80d815b67f5d3f3dc66620b74755df9bb
   languageName: node
   linkType: hard
 
-"markdownlint@npm:0.37.2, markdownlint@npm:^0.37.2":
-  version: 0.37.2
-  resolution: "markdownlint@npm:0.37.2"
+"markdownlint@npm:0.37.3, markdownlint@npm:^0.37.3":
+  version: 0.37.3
+  resolution: "markdownlint@npm:0.37.3"
   dependencies:
     markdown-it: "npm:14.1.0"
     micromark: "npm:4.0.1"
+    micromark-core-commonmark: "npm:2.0.2"
     micromark-extension-directive: "npm:3.0.2"
     micromark-extension-gfm-autolink-literal: "npm:2.1.0"
     micromark-extension-gfm-footnote: "npm:2.1.0"
     micromark-extension-gfm-table: "npm:2.1.0"
     micromark-extension-math: "npm:3.1.0"
     micromark-util-types: "npm:2.0.1"
-  checksum: 10/bfa2706510adc7ef24e3a79aa25b43c1a11035df52c63656b0e46b1a9b4dda2a7352b724ec592cbe86cb67c41b5f61c43b748db9bcc79505518870dc28443c11
+  checksum: 10/e305f3cb7988742cc0acbeda2bb2685e1ba049c392b7ebd6cae37ac5c74a9d5f177216773a47b55c3b0612ff8b5e3b3b66275c552eaec89f94159e5ef6d8ac3e
   languageName: node
   linkType: hard
 
@@ -626,7 +627,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromark-core-commonmark@npm:^2.0.0":
+"micromark-core-commonmark@npm:2.0.2, micromark-core-commonmark@npm:^2.0.0":
   version: 2.0.2
   resolution: "micromark-core-commonmark@npm:2.0.2"
   dependencies:
