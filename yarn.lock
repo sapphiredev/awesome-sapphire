@@ -113,9 +113,9 @@ __metadata:
   resolution: "awesome-sapphire@workspace:."
   dependencies:
     "@sapphire/prettier-config": "npm:^2.0.0"
-    lint-staged: "npm:^15.3.0"
-    markdownlint: "npm:^0.37.3"
-    markdownlint-cli2: "npm:^0.17.1"
+    lint-staged: "npm:^15.4.1"
+    markdownlint: "npm:^0.37.4"
+    markdownlint-cli2: "npm:^0.17.2"
     prettier: "npm:^3.4.2"
   languageName: unknown
   linkType: soft
@@ -501,9 +501,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^15.3.0":
-  version: 15.3.0
-  resolution: "lint-staged@npm:15.3.0"
+"lint-staged@npm:^15.4.1":
+  version: 15.4.1
+  resolution: "lint-staged@npm:15.4.1"
   dependencies:
     chalk: "npm:~5.4.1"
     commander: "npm:~12.1.0"
@@ -517,7 +517,7 @@ __metadata:
     yaml: "npm:~2.6.1"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 10/b19ce450641f6cc76be8399658423f0dfa9f9a471aaa427c10bef6a1de2017f1c2547e293de908a57b9202ee20a19fd2305aec3e435cb1d4cfc1d03ace843e9f
+  checksum: 10/615a1f0a66c6cb35fda928745fec9864498853d5aab49785840b12643e40c6518daf01218b5255a727d32ef9a3738e3766103679cfdcd6f1b320e272920f3b68
   languageName: node
   linkType: hard
 
@@ -573,25 +573,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint-cli2@npm:^0.17.1":
-  version: 0.17.1
-  resolution: "markdownlint-cli2@npm:0.17.1"
+"markdownlint-cli2@npm:^0.17.2":
+  version: 0.17.2
+  resolution: "markdownlint-cli2@npm:0.17.2"
   dependencies:
     globby: "npm:14.0.2"
     js-yaml: "npm:4.1.0"
     jsonc-parser: "npm:3.3.1"
-    markdownlint: "npm:0.37.3"
+    markdownlint: "npm:0.37.4"
     markdownlint-cli2-formatter-default: "npm:0.0.5"
     micromatch: "npm:4.0.8"
   bin:
     markdownlint-cli2: markdownlint-cli2-bin.mjs
-  checksum: 10/5affa15c79b56e27e68de120274fd76887d864f57e7e6c0fb4c5c1d4abcd0f183993b84aa1c0ebe32de2eedafd70bed80d815b67f5d3f3dc66620b74755df9bb
+  checksum: 10/efe9c196e3851b5956028ca418176b9db8c2629e20541efffc39f9b7e08f727dd9d5bde5c64d9684d16171e9691d34bab9764eb3c6e5df1600efea774a1500da
   languageName: node
   linkType: hard
 
-"markdownlint@npm:0.37.3, markdownlint@npm:^0.37.3":
-  version: 0.37.3
-  resolution: "markdownlint@npm:0.37.3"
+"markdownlint@npm:0.37.4, markdownlint@npm:^0.37.4":
+  version: 0.37.4
+  resolution: "markdownlint@npm:0.37.4"
   dependencies:
     markdown-it: "npm:14.1.0"
     micromark: "npm:4.0.1"
@@ -602,7 +602,7 @@ __metadata:
     micromark-extension-gfm-table: "npm:2.1.0"
     micromark-extension-math: "npm:3.1.0"
     micromark-util-types: "npm:2.0.1"
-  checksum: 10/e305f3cb7988742cc0acbeda2bb2685e1ba049c392b7ebd6cae37ac5c74a9d5f177216773a47b55c3b0612ff8b5e3b3b66275c552eaec89f94159e5ef6d8ac3e
+  checksum: 10/943a55cd1ff5cd421d44b33c2c95e7862bda997f398d432f9ca2f5cb5068a5f6295e0b69ec5a73ab197e74affa77964fb6163c7714d43c321bc43fb940d9bc21
   languageName: node
   linkType: hard
 
