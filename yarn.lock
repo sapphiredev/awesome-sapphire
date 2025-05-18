@@ -115,7 +115,7 @@ __metadata:
     "@sapphire/prettier-config": "npm:^2.0.0"
     lint-staged: "npm:^16.0.0"
     markdownlint: "npm:^0.38.0"
-    markdownlint-cli2: "npm:^0.18.0"
+    markdownlint-cli2: "npm:^0.18.1"
     prettier: "npm:^3.5.3"
   languageName: unknown
   linkType: soft
@@ -517,9 +517,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint-cli2@npm:^0.18.0":
-  version: 0.18.0
-  resolution: "markdownlint-cli2@npm:0.18.0"
+"markdownlint-cli2@npm:^0.18.1":
+  version: 0.18.1
+  resolution: "markdownlint-cli2@npm:0.18.1"
   dependencies:
     globby: "npm:14.1.0"
     js-yaml: "npm:4.1.0"
@@ -530,7 +530,7 @@ __metadata:
     micromatch: "npm:4.0.8"
   bin:
     markdownlint-cli2: markdownlint-cli2-bin.mjs
-  checksum: 10/16aa726ab88689305187abdabfcd42cb37e084222925e91917baed8f017b965ede286b577b02c19c4d9d0d118da3c0223247c0ae5ec31d7cc0bbcbc60c0213cf
+  checksum: 10/ad1d70d9226a81730b0a5a99ed223936fe134801229843de58094fc93c2e8a8d6baf6f386f374d6fb7d6868663dde62a4705e1c3fc5fde764d34a06ff77eb8d2
   languageName: node
   linkType: hard
 
