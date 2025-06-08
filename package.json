@@ -25,5 +25,5 @@
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
 	},
-	"packageManager": "yarn@4.9.1"
+	"packageManager": "yarn@4.9.2"
 }
