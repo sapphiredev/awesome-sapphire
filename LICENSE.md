@@ -29,7 +29,6 @@ legal effect of CC0 on those rights.
 1. Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and related or
    neighboring rights ("Copyright and Related Rights"). Copyright and Related Rights include, but are not limited to,
    the following:
-
    1. the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
    2. moral rights retained by the original author(s) and/or performer(s);
    3. publicity and privacy rights pertaining to a person's image or likeness depicted in a Work;
@@ -68,7 +67,6 @@ legal effect of CC0 on those rights.
    respect to the Work, in either case contrary to Affirmer's express Statement of Purpose.
 
 4. Limitations and Disclaimers.
-
    1. No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected
       by this document.
    2. Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work,
