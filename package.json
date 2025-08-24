@@ -19,11 +19,11 @@
 		"prettier": "^3.6.2"
 	},
 	"resolutions": {
-		"ansi-regex": "^6.1.0",
+		"ansi-regex": "^6.2.0",
 		"minimist": "^1.2.8"
 	},
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
 	},
-	"packageManager": "yarn@4.9.2"
+	"packageManager": "yarn@4.9.3"
 }
