@@ -19,7 +19,7 @@
 		"prettier": "^3.6.2"
 	},
 	"resolutions": {
-		"ansi-regex": "^6.2.0",
+		"ansi-regex": "^6.2.2",
 		"minimist": "^1.2.8"
 	},
 	"lint-staged": {
