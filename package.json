@@ -13,17 +13,17 @@
 	},
 	"devDependencies": {
 		"@sapphire/prettier-config": "^2.0.0",
-		"lint-staged": "^16.2.6",
-		"markdownlint": "^0.39.0",
-		"markdownlint-cli2": "^0.18.1",
-		"prettier": "^3.6.2"
+		"lint-staged": "^16.4.0",
+		"markdownlint": "^0.41.1",
+		"markdownlint-cli2": "^0.23.2",
+		"prettier": "^3.9.6"
 	},
 	"resolutions": {
-		"ansi-regex": "^6.2.2",
+		"ansi-regex": "^6.3.0",
 		"minimist": "^1.2.8"
 	},
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
 	},
-	"packageManager": "yarn@4.11.0"
+	"packageManager": "yarn@4.18.0"
 }
