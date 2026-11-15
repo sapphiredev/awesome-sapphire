@@ -32,12 +32,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/prettier-config@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@sapphire/prettier-config@npm:2.0.0"
+"@sapphire/prettier-config@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@sapphire/prettier-config@npm:3.0.0"
   dependencies:
-    prettier: "npm:^3.0.0"
-  checksum: 10/900ec710173f05a31e3fe25151221d2c5f0d385d2f6e0b68d3a4713412e70871e6b64c3107d1f6952fff7e5032cb37186b9b522ab1eb048bbde6de09e8ecb027
+    prettier: "npm:^3.10.1"
+  checksum: 10/43f51ad1e20afa0b736c098835b03bea0be0601b238ca0d51734f60889b543e25cfc9fa7056a68673a7a263283ca06eca4810ff704867c5d8cbd5313772138ff
   languageName: node
   linkType: hard
 
@@ -112,7 +112,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "awesome-sapphire@workspace:."
   dependencies:
-    "@sapphire/prettier-config": "npm:^2.0.0"
+    "@sapphire/prettier-config": "npm:^3.0.0"
     lint-staged: "npm:^16.2.6"
     markdownlint: "npm:^0.39.0"
     markdownlint-cli2: "npm:^0.18.1"
@@ -930,12 +930,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.0.0, prettier@npm:^3.6.2":
-  version: 3.6.2
-  resolution: "prettier@npm:3.6.2"
+"prettier@npm:^3.10.1, prettier@npm:^3.6.2":
+  version: 3.10.1
+  resolution: "prettier@npm:3.10.1"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10/1213691706bcef1371d16ef72773c8111106c3533b660b1cc8ec158bd109cdf1462804125f87f981f23c4a3dba053b6efafda30ab0114cc5b4a725606bb9ff26
+  checksum: 10/ab4fc7bbee5823eb99200f89172e1dc360a8225facc19db336f30aa4e089bd8576f141ca8e129ce6ce850f1d7beb4d6e8b7630c2522b3b2fdc62330114f828b2
   languageName: node
   linkType: hard
 

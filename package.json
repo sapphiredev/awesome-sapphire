@@ -12,7 +12,7 @@
 		"update": "yarn upgrade-interactive"
 	},
 	"devDependencies": {
-		"@sapphire/prettier-config": "^2.0.0",
+		"@sapphire/prettier-config": "^3.0.0",
 		"lint-staged": "^16.2.6",
 		"markdownlint": "^0.39.0",
 		"markdownlint-cli2": "^0.18.1",
